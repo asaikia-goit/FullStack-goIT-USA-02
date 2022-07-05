@@ -34,3 +34,13 @@ tr:nth-child(odd) td {
 caption {
 	padding: 10px;
 }
+
+/* class accent styling */
+.accent {
+	background-color: azure;
+	color: rgb(190, 114, 15);
+}
+
+#p1 {
+	margin-bottom: 100px;
+}
