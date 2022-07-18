@@ -1,0 +1,32 @@
+.parent {
+	width: 1200px;
+	background: rgb(139, 195, 244);
+
+	/* box-sizing: border-box; */
+
+	margin: 50px;
+	padding: 0;
+}
+
+.child-one {
+	width: 600px;
+	height: 300px;
+	padding: 20px;
+	border: 10px solid gray;
+	background: tomato;
+	display: inline-block;
+
+	box-sizing: content-box;
+	margin-right: -4px;
+}
+
+.child-two {
+	box-sizing: content-box;
+	width: 600px;
+	height: 300px;
+	background: blue;
+	display: inline-block;
+	border: 10px solid rgb(10, 197, 135);
+	background: tomato;
+	margin-right: -4px;
+}
