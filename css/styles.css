@@ -16,6 +16,7 @@ header {
 	width: calc(100% - 155px);
 	height: 100%;
 	background-image: url('/images/hero-image.png');
+	background-color: red;
 }
 
 .nav-bar-container {
@@ -93,4 +94,15 @@ header {
 
 .gray-text {
 	color: #9da4bd;
+}
+
+.test {
+	width: 300px;
+	height: 300px;
+
+	border: 20px dashed rgb(86, 71, 255);
+
+	margin: 50px;
+	padding: 20px;
+	background: indianred;
 }
